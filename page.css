@@ -1,0 +1,85 @@
+ *{
+    box-sizing: border-box;
+}
+
+nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ nav img{
+     width:40;
+ }
+
+ #login{
+    color: #4CAF4F;
+    border: none;
+    background-color: white;
+}
+
+#signup{
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    width: 6rem;
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+}
+
+li{
+    font-size: 1.3rem;
+    color: #333;
+}
+
+
+
+.lesson_div_one{
+     display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    gap: 0.8rem;
+}
+
+.lesson_div_one h1{
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+
+#heading_two{
+   color: #4CAF4F
+}
+
+#register_btn{
+    background-color: #4CAF4F;
+    color: white;
+    width: 8rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.learn_btn{
+    background-color: #4CAF4F;
+    color: white;
+    width: 10rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+
+
+.img_section{
+    width: 300px;
+    padding: 0rem 0rem 0rem 2rem;
+}
+
+.lesson_div_one h1{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+}
