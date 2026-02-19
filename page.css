@@ -1,85 +1,109 @@
- *{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-nav_container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
- }
-
- nav img{
-     width:40;
- }
-
- #login{
-    color: #4CAF4F;
-    border: none;
-    background-color: white;
+nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#signup{
-    background-color: #4CAF4F;
-    color: white;
-    border: none;
-    width: 6rem;
-    padding: 0.8rem;
-    border-radius: 0.6rem;
+nav img {
+  width: 40;
 }
 
-li{
-    font-size: 1.3rem;
-    color: #333;
+#login {
+  color: #4caf4f;
+  border: none;
+  background-color: white;
 }
 
-
-
-.lesson_div_one{
-     display: flex;
-    flex-direction: column;
-    font-family: 'Inter', sans-serif;
-    gap: 0.8rem;
+#signup {
+  background-color: #4caf4f;
+  color: white;
+  border: none;
+  width: 6rem;
+  padding: 0.8rem;
+  border-radius: 0.6rem;
 }
 
-.lesson_div_one h1{
-    font-size: 4rem;
-    font-weight: 900;
+li {
+  font-size: 1.3rem;
+  color: #333;
 }
 
-
-#heading_two{
-   color: #4CAF4F
+.lesson_div_one {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  gap: 0.8rem;
 }
 
-#register_btn{
-    background-color: #4CAF4F;
-    color: white;
-    width: 8rem;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    border: none;
+.lesson_div_one h1 {
+  font-size: 4rem;
+  font-weight: 900;
 }
 
-.learn_btn{
-    background-color: #4CAF4F;
-    color: white;
-    width: 10rem;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    border: none;
+#heading_two {
+  color: #4caf4f;
+}
+
+#register_btn {
+  background-color: #4caf4f;
+  color: white;
+  width: 8rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.learn_btn {
+  background-color: #4caf4f;
+  color: white;
+  width: 10rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
 }
 
 @media screen and (max-width: 768px) {
-
-
-.img_section{
+  .img_section {
     width: 300px;
     padding: 0rem 0rem 0rem 2rem;
-}
+  }
 
-.lesson_div_one h1{
+  .lesson_div_one h1 {
     font-size: 2rem;
     font-weight: 900;
+  }
 }
 
+#Demo_btn {
+  background-color: #4caf4f;
+  color: white;
+  width: 12rem;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  position: relative;
+  border: none;
+}
+
+#demo_heading {
+  font-size: 4rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+input {
+  background-color: rgba(128, 128, 128, 0.603);
+  color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 0.6rem;
+}
+
+input::placeholder {
+  color: #ffffff;
 }
