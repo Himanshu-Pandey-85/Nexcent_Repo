@@ -98,12 +98,87 @@ a {
 }
 
 input {
-  background-color: rgba(128, 128, 128, 0.603);
+  background-color: rgb(83, 93, 98);
   color: #ffffff;
   border-radius: 0.5rem;
-  padding: 0.6rem;
+  padding: 0.5rem;
+  width: 17rem;
+  border: none;
 }
 
 input::placeholder {
-  color: #ffffff;
+  color: rgb(189, 196, 199);
+  padding-left: 0.4rem;
+}
+
+.marketing_containers {
+  position: relative;
+  border-radius: 15px;
+  margin-bottom: 5rem;
+}
+
+.marketing_icon {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.marketing_icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card {
+  position: absolute;
+  bottom: -75px;
+  left: 10%;
+  right: 10%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  z-index: 10;
+}
+
+.readmore {
+  color: #4caf4f;
+}
+
+.readmore span {
+  margin-left: 5px;
+}
+
+@media (min-width: 991px) {
+  .Tesla_Logo_Container {
+    display: flex;
+  }
+}
+@media (max-width: 991px) {
+  #demo_heading {
+    font-size: 3rem;
+  }
+  .card {
+    height: 10.8rem;
+    position: absolute;
+    bottom: -75px;
+    left: 10%;
+    right: 10%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+    padding: 10px;
+  }
+}
+
+.tesla_para {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(113, 113, 113, 1);
 }
